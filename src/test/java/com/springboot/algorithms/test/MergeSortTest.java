@@ -1,9 +1,11 @@
 package com.springboot.algorithms.test;
 
 import java.util.Arrays;
+import java.util.Random;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,10 +25,17 @@ public class MergeSortTest {
 
 	@Test
 	public void sortingTest() {
-		int[] arr = { 222, 544, 1232, 1, 54, -7, 1, 3, -5, -125, 43, 44 };
-		logger.info("{}", Arrays.toString(arr));
+		int[] initial = new Random().ints(10, -100, 100).toArray();
+		logger.info("Initial: {}", Arrays.toString(initial));
+
+		int[] arr = Arrays.copyOf(initial, initial.length);
 		arr = this.mergeSort.sort(arr);
-		logger.info("{}", Arrays.toString(arr));
+		logger.info("Sorted:  {}", Arrays.toString(arr));
+
+		int[] javaSorted = Arrays.copyOf(initial, initial.length);
+		Arrays.sort(javaSorted);
+
+		Assert.assertArrayEquals(javaSorted, arr);
 	}
 
 }

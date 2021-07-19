@@ -10,13 +10,14 @@ public class QuickSort {
 
 	private static Logger logger = LogManager.getLogger(QuickSort.class);
 
-	public void sort(int[] arr, int idx0, int idx1) {
+	public int[] sort(int[] arr, int idx0, int idx1) {
 		if (idx0 < idx1) {
 			int prevPivotIdx = this.partitionLast(arr, idx0, idx1);
 			logger.debug("{}", Arrays.toString(arr));
 			this.sort(arr, idx0, prevPivotIdx - 1);
 			this.sort(arr, prevPivotIdx + 1, idx1);
 		}
+		return arr;
 	}
 
 	private int partitionLast(int[] arr, int idx0, int idx1) {

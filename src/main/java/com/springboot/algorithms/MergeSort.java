@@ -18,9 +18,9 @@ public class MergeSort {
 		if (arr2.length > 1)
 			arr2 = this.sort(arr2);
 
-		int[] merged = this.merge(arr1, arr2);
+		arr = this.merge(arr1, arr2);
 
-		return merged;
+		return arr;
 	}
 
 	private int[] merge(int[] arr1, int[] arr2) {
