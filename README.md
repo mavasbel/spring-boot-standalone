@@ -1,6 +1,6 @@
 # Spring-Boot Standalone Java Application
 
-A template of a Java stand alone application with maven and using spring-boot.
+A template of a Java stand alone application with maven using spring-boot ready to download and import in your favorite IDE
 
 ``` bash
 ├───src
