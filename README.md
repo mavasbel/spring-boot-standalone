@@ -48,7 +48,7 @@ A template of a Java stand alone application with maven using spring-boot ready 
 <p align="center">
     <img src="https://githubprojectsfiles.s3.us-west-1.amazonaws.com/java_springboot_eclipse.png"
          style="objectt-fit:scale-down;
-                width:100px;
+                width:1000px;
                 height:540px">
 </p>
 
