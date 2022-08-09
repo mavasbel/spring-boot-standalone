@@ -48,8 +48,8 @@ A template of a Java stand alone application with maven using spring-boot ready 
 <p align="center">
     <img src="https://githubprojectsfiles.s3.us-west-1.amazonaws.com/java_springboot_eclipse.png"
          style="objectt-fit:scale-down;
-                width:1100px;
-                height:640px">
+                width:100px;
+                height:540px">
 </p>
 
 ## VSCode
@@ -57,6 +57,6 @@ A template of a Java stand alone application with maven using spring-boot ready 
 <p align="center">
     <img src="https://githubprojectsfiles.s3.us-west-1.amazonaws.com/java_springboot_vscode.png"
          style="objectt-fit:scale-down;
-                width:1100px;
-                height:640px">
+                width:1000px;
+                height:540px">
 </p>
