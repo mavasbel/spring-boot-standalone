@@ -42,9 +42,9 @@ A template of a Java stand alone application with maven using spring-boot ready 
 
 <hr class="dashed"/>
 
-#Screenshots
+# Screenshots
 
-* Eclipse
+## Eclipse
 <p align="center">
     <img src="https://githubprojectsfiles.s3.us-west-1.amazonaws.com/java_springboot_eclipse.png"
          style="objectt-fit:scale-down;
@@ -52,7 +52,7 @@ A template of a Java stand alone application with maven using spring-boot ready 
                 height:640px">
 </p>
 
-* VSCode
+## VSCode
 
 <p align="center">
     <img src="https://githubprojectsfiles.s3.us-west-1.amazonaws.com/java_springboot_vscode.png"
