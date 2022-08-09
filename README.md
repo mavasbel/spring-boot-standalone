@@ -1,6 +1,6 @@
 # Spring-Boot Standalone Java Application
 
-A template of a Java stand alone application with maven and using spring-boot
+A template of a Java stand alone application with maven and using spring-boot.
 
 ``` bash
 ├───src
